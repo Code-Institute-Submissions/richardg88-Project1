@@ -24,6 +24,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -56,11 +57,39 @@ h1, h2 {
     border-bottom: 2px solid rgb(85, 107, 47);
 }
 
-/* hero image */
+/* hero image and cover text box */
 
 #hero-image {
     height: 500px;
     width: 100%;
     background: url(../images/green-fingers-hero-image\ \(1\).png) no-repeat center center;
     overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text h2, h3 {
+    color: #fff;
+    text-align: center;
+
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: "lato", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 400px;
+    height: 100px;
+    padding-top: 10;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    background-color: rgb(85, 107, 47, .7);
+
+    bottom: 300px;
+    left: 150px;
+
+    position: fixed;
 }
