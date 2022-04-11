@@ -10,6 +10,7 @@ body {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    background: #f6f4f2;
 }
 
 /* headings and logo */
@@ -32,10 +33,19 @@ h1, h2 {
 
 #why-its-important {
     text-align: center;
-    margin: 0px auto;
+    margin: 10px auto;
     padding-bottom: 30px;
     font-size: 280%;
     text-decoration: underline;
+}
+
+#contact-us {
+    text-align: center;
+    margin: 10px auto;
+    padding-bottom: 30px;
+    font-size: 280%;
+    text-decoration: underline;
+    color: #fff;
 }
 
 #logo {
@@ -111,7 +121,7 @@ h1, h2 {
     position: relative;
 }
 
-/* service box sections */
+/* service sections */
 
 .service-parent {
     height: 250px;
@@ -143,7 +153,7 @@ h1, h2 {
 }
 
 .why-important {
-    height: 315px;
+    height: 400px;
     display: grid;
     padding-left: 28%;
     grid-gap: 15px;
@@ -151,4 +161,69 @@ h1, h2 {
     grid-template-rows: 315px;
 }
 
+/* contact section */
+
+.contact-section {
+    background: darkolivegreen;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.contact-section h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.border {
+    width: 100px;
+    height: 10px;
+    background: rgb(85, 107, 47, .7);
+    margin: 40px auto;    
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #3a3a3a;
+    padding: 20px 40px;
+    outline: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus {
+    box-shadow: 0 0 10px 4px #683704;
+}
+
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn {
+    float: right;
+    font-weight: 600;
+    border: 0;
+    background: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover {
+    background: #683704;
+    color: #fff;
+
+}
 
