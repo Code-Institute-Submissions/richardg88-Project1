@@ -21,6 +21,23 @@ h1, h2 {
     color: darkolivegreen;
 }
 
+#services {
+    text-align: center;
+    margin: 10px auto;
+    padding-bottom: 30px;
+    font-size: 280%;
+    text-decoration: underline;
+    clear: inherit;
+}
+
+#why-its-important {
+    text-align: center;
+    margin: 0px auto;
+    padding-bottom: 30px;
+    font-size: 280%;
+    text-decoration: underline;
+}
+
 #logo {
     float: left;
     font-size: 280%;
@@ -97,6 +114,7 @@ h1, h2 {
 /* service box sections */
 
 .service-parent {
+    height: 250px;
     display: grid;
     padding-left: 15%;
     grid-gap: 15px;
@@ -109,6 +127,7 @@ h1, h2 {
     padding: 10px;
     background-color: darkolivegreen;
     border-style: solid;
+    border-color: #3a3a3a;
 }
 
 .service-parent h2 {
@@ -122,4 +141,14 @@ h1, h2 {
     text-align: center;
     padding-top: 20px;
 }
+
+.why-important {
+    height: 315px;
+    display: grid;
+    padding-left: 28%;
+    grid-gap: 15px;
+    grid-template-columns: 560px;
+    grid-template-rows: 315px;
+}
+
 
