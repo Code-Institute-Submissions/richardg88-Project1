@@ -91,5 +91,35 @@ h1, h2 {
     bottom: 300px;
     left: 150px;
 
-    position: fixed;
+    position: relative;
 }
+
+/* service box sections */
+
+.service-parent {
+    display: grid;
+    padding-left: 15%;
+    grid-gap: 15px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 150px 150px 150px;
+    
+}
+
+.service-parent > div {
+    padding: 10px;
+    background-color: darkolivegreen;
+    border-style: solid;
+}
+
+.service-parent h2 {
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.service-parent p {
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
