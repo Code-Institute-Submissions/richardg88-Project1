@@ -126,7 +126,7 @@ h1, h2 {
 .service-parent {
     height: 250px;
     display: grid;
-    padding-left: 15%;
+    padding-left: 16.5%;
     grid-gap: 15px;
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 150px 150px 150px;
@@ -155,10 +155,11 @@ h1, h2 {
 .why-important {
     height: 400px;
     display: grid;
-    padding-left: 28%;
+    padding-left: 29.5%;
     grid-gap: 15px;
     grid-template-columns: 560px;
     grid-template-rows: 315px;
+    background-image: url(../images/why\ lawn\ care\ is\ important.png);
 }
 
 /* contact section */
