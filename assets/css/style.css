@@ -229,3 +229,30 @@ textarea.contact-form-text {
 
 }
 
+/* footer */
+
+footer {
+    height: 100px;
+    background: #683704;
+
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons > li {
+    display: inline;
+}
+
+.social-icons i {
+    font-size: 160%;
+    margin: 0;
+    padding: 1%;
+    color: #fff;
+}
+
+.social-icons p {
+    color:#fff;
+    margin: 0;
+} 
