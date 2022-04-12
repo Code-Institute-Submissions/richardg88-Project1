@@ -285,3 +285,36 @@ details > summary {
     text-align: center;
     max-width: inherit;
 }
+
+/* contact page */
+
+#contact-section {
+    clear: both;
+    bottom: auto;
+}
+
+.contact-text {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+table {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    clear: both;
+}
+
+tr {
+    font-size: large;
+    text-align: center;
+}
+
+td {
+    padding-right: 5px;
+    text-align: center;
+}
