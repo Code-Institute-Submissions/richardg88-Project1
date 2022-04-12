@@ -28,6 +28,7 @@ h1, h2 {
     padding-bottom: 30px;
     font-size: 280%;
     text-decoration: underline;
+    line-height: 3px;
     clear: inherit;
 }
 
@@ -178,7 +179,7 @@ h1, h2 {
 .border {
     width: 100px;
     height: 10px;
-    background: rgb(85, 107, 47, .7);
+    background: #683704;
     margin: 40px auto;    
 }
 
