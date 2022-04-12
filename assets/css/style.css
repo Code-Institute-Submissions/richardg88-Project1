@@ -36,8 +36,7 @@ h1, h2 {
     text-align: center;
     margin: 0px auto;
     padding-bottom: 30px;
-    font-size: 280%;
-    text-decoration: underline;
+    font-size: 200%;
 }
 
 #contact-us {
@@ -192,6 +191,7 @@ h1, h2 {
 .contact-section h2 {
     text-align: center;
     color: darkolivegreen;
+    font-size: 200%;
 }
 
 .border {
