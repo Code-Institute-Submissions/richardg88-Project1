@@ -341,7 +341,15 @@ td {
     text-align: center;
 }
 
-/* media queries */
+/* Media for medium screen sizes from 900px wide and down */
 
-/* for larger to medium screen size from 1200px wide and down */
+@media screen and (max-width: 950px) {
 
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
