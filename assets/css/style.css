@@ -132,7 +132,7 @@ h1, h2 {
 
 }
 
-#service-box {
+.service-box {
     height: 200px;
     position: relative;
 }
